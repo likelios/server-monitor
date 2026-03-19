@@ -1,0 +1,19 @@
+# Config files
+config/server_monitor.conf
+*.log
+*.pid
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test files
+tests/tmp/
+*.test
