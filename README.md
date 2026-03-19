@@ -16,3 +16,15 @@ git clone https://github.com/likelios/server-monitor.git
 cd server-monitor
 chmod +x install.sh
 sudo ./install.sh
+```
+
+## Usage
+
+# Send one report
+ server-monitor --once
+
+# Continuous monitoring
+ server-monitor --continuous
+
+# Debug mode (local only)
+server-monitor --debug 
