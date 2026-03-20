@@ -22,9 +22,7 @@ sudo ./install.sh
 
 # Send one report
  server-monitor --once
-
 # Continuous monitoring
  server-monitor --continuous
-
 # Debug mode (local only)
-server-monitor --debug 
+server-monitor --debug
