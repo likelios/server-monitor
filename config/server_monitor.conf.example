@@ -1,0 +1,18 @@
+# Mattermost Webhook URL (required)
+WEBHOOK_URL="https://your-mattermost.com/hooks/your_webhook_key"
+
+# Report interval in seconds (for continuous mode)
+REPORT_INTERVAL=3600
+
+# Services to monitor (space separated)
+SERVICES="nginx postgresql mattermost"
+
+# Alert thresholds
+MEMORY_THRESHOLD=90    # Alert when memory usage > 90%
+DISK_THRESHOLD=90      # Alert when disk usage > 90%
+CPU_THRESHOLD=1.0      # Alert when load per core > 1.0
+
+# Colors (optional)
+COLOR_GREEN="#00FF00"
+COLOR_YELLOW="#FFFF00"
+COLOR_RED="#FF0000"
